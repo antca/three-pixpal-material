@@ -1,0 +1,36 @@
+{
+  "name": "three-pixpal-material",
+  "version": "0.0.0",
+  "description": "A Three.js implementation of Imphenzia's PixPal material system",
+  "license": "CC0-1.0",
+  "author": "Ant Cam <git@ant.cam>",
+  "type": "module",
+  "main": "dist/pixpal-material.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antca/three-pixpal-material.git"
+  },
+  "homepage": "https://github.com/yourusername/three-pixpal-material",
+  "keywords": ["three.js", "webgpu", "pixpal", "material", "shader", "imphenzia", "3d"],
+  "files": [
+    "dist",
+    "textures",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "clean:build": "npm run clean && npm run build",
+    "pack": "npm run clean:build && npm pack",
+    "serve": "npx http-server . -p 8080"
+  },
+  "peerDependencies": {
+    "three": ">=0.172.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.172.0",
+    "three": "^0.172.0",
+    "typescript": "^5.8.2"
+  }
+}

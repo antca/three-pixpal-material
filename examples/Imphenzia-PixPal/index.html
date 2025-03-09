@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head lang="en">
+    <title>Imphenzia PixPal Showcase</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="icon" type="image/png" href="/textures/ImphenziaPixPal_BaseColor.png">
+    <style>
+      canvas {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: black;
+      }
+
+      body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "../../node_modules/three/build/three.core.min.js",
+          "three/webgpu": "../../node_modules/three/build/three.webgpu.min.js",
+          "three/tsl": "../../node_modules/three/build/three.tsl.min.js",
+          "three/addons/": "../../node_modules/three/examples/jsm/",
+          "three-pixpal-material": "../../dist/pixpal-material.js"
+        }
+      }
+    </script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
