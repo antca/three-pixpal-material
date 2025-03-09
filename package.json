@@ -1,6 +1,6 @@
 {
   "name": "three-pixpal-material",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A Three.js implementation of Imphenzia's PixPal material system",
   "license": "CC0-1.0",
   "author": "Ant Cam <git@ant.cam>",
