@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "three": "^0.174.0",
+    "three-pixpal-material": "^0.1.0"
+  }
+}

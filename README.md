@@ -77,17 +77,17 @@ To run the examples, follow these steps:
 
 1. Build the package:
    ```bash
-   npm run build
+   npm run examples:build
    ```
 
 2. Start the local development server:
    ```bash
-   npm run serve
+   npm run examples:serve
    ```
 
 3. Open your browser and navigate to:
    ```
-   http://localhost:8080/examples/Imphenzia-PixPal/
+   http://localhost:8080/
    ```
 
 ## Building

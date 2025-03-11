@@ -21,8 +21,9 @@
     "build": "tsc",
     "clean": "rm -rf dist",
     "clean:build": "npm run clean && npm run build",
+    "examples:build": "npm run build && npm pack && (cd examples && npm i && npm i ../three-pixpal-material-*.tgz --no-save)",
     "pack": "npm run clean:build && npm pack",
-    "serve": "npx http-server . -p 8080"
+    "examples:serve": "npx http-server examples -p 8080"
   },
   "peerDependencies": {
     "three": ">=0.172.0"

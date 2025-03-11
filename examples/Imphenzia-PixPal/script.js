@@ -7,7 +7,6 @@ import {
   output,
   pass,
   transformedNormalView,
-  Fn,
 } from "three/tsl";
 import { bloom } from "three/addons/tsl/display/BloomNode.js";
 import { smaa } from "three/addons/tsl/display/SMAANode.js";
@@ -20,9 +19,9 @@ import { PixPalNodeMaterial, createPixPalTextures } from "three-pixpal-material"
 
 // Textures loading
 const textures = createPixPalTextures(
-  "/textures/ImphenziaPixPal_BaseColor.png",
-  "/textures/ImphenziaPixPal_Emission.png",
-  "/textures/ImphenziaPixPal_Attributes.png",
+  "../node_modules/three-pixpal-material/textures/ImphenziaPixPal_BaseColor.png",
+  "../node_modules/three-pixpal-material/textures/ImphenziaPixPal_Emission.png",
+  "../node_modules/three-pixpal-material/textures/ImphenziaPixPal_Attributes.png",
 );
 
 const gltfLoader = new GLTFLoader();
