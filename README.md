@@ -8,6 +8,11 @@ This project is based on [Imphenzia's PixPal Palette](https://www.youtube.com/im
 
 This material is implemented using Three.js Shader Language (TSL) and requires the WebGPURenderer.
 
+## Live Examples
+
+You can view the live examples on GitHub Pages:
+[https://antca.github.io/three-pixpal-material/](https://antca.github.io/three-pixpal-material/)
+
 ## Installation
 
 You can install this package using npm:
