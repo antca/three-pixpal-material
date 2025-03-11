@@ -10,7 +10,6 @@
     "type": "git",
     "url": "https://github.com/antca/three-pixpal-material.git"
   },
-  "homepage": "https://github.com/yourusername/three-pixpal-material",
   "keywords": ["three.js", "webgpu", "pixpal", "material", "shader", "imphenzia", "3d"],
   "files": [
     "dist",
