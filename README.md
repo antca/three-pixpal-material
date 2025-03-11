@@ -27,7 +27,7 @@ You can copy these textures to your project's assets directory or serve them fro
 
 ```javascript
 import * as THREE from 'three/webgpu';
-import { createPixPalTextures, PixPalMaterial } from 'three-pixpal-material';
+import { createPixPalTextures, PixPalNodeMaterial } from 'three-pixpal-material';
 
 // Set up WebGPU renderer
 const renderer = new THREE.WebGPURenderer();
@@ -40,7 +40,7 @@ const textures = createPixPalTextures(
 );
 
 // Create material
-const material = new PixPalMaterial(textures);
+const material = new PixPalNodeMaterial(textures);
 
 // Use with a mesh
 const mesh = new THREE.Mesh(geometry, material);
